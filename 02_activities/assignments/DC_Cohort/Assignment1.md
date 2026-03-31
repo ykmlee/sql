@@ -209,5 +209,9 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+The article discusses how databases are intended to create structure in society, but instead, they often oversimplify complex human social constructs. These complexities cannot be captured in a few column labels with predetermined binary responses (e.g. gender as a binary construct and marital status as true of false).
+As I am filing my taxes for CRA and reflecting on my volatile income from the past few years of my doctoral studies, I can appreciate how databases fail to capture the complexity of my daily life. This is a form of mathematical reductionism, where the system assumes that my entire lived experience and financial stability can be reduced to a single value to determine my specific income bracket.
+While the CRA requires us to report various sources of income and expenses, such as tuition, to determine our tax or refund status, the final outcome is dictated by rigid, predetermined categories and algorithms. We can only input data based on the values the system allows us to provide. This reflects a specific value system where "fairness" is defined by standardized rules rather than individual circumstances, showing how social structures and technology intersect to define (and often limit) our identities.
+
+
 ```
