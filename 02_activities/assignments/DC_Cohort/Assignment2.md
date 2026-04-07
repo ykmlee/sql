@@ -56,7 +56,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1: The columns in the CUSTOMER_ADDRESS table would be: customer_id, current_address. When there is an update, the cell is overwritten to show the current address.
+
+Type 2: The columns in the CUSTOMER_ADDRESS table would be: customer_id,  address, start_date, end_date. This architecture adds a new row when there is an update. The start_date can be the day the customer provided the address and the end_date is when the customer changed their address. When the address is current, the end_date would show NULL.
 ```
 
 ***
@@ -191,5 +193,10 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+The core ethical issue highlighted in this article is that neural networks should not be treated as sources of objective data. At their base, these models are a collection of human judgments embedded with personal and cultural biases. We often talk about machine learning (ML) as if it has a neutral stance, but in reality, it is a reflection of the people who built it. Because ML models are built on training sets made by a select group of individuals who are not representative of humans in general, the resulting AI inevitably carries the inherent prejudices, subjective preferences, and specific social views of those original annotators.
+The danger here is that we have started using AI to "verify" our human work, under the false impression that the machine is providing a second, unbiased opinion. In truth, we are just propagating a biased view through a different medium. If our research and professional work continue in this direction, we are essentially creating "self-confirming" data. We think we are getting a clean, objective result, but we are actually just getting a response that has been tainted by the biases of the training set.
+As these models become more complex, human-made errors (in the training set) remain deeply embedded in the code. Because we’ve outsourced the judgment to an algorithm, those errors become much harder to trace, challenge, or correct. Instead of progress, we risk automating our past mistakes that makes them look like facts. 
+Based on the insights of this article, it suggests that while it was understandable to curate small training datasets like ImageNet to create a "Minimum Viable Product" to develop AI, at a certain point, we must we return to their foundations. We need to ensure that training sets are truly representative of humanity, rather than just the narrow group of original annotators.
+However, this raises a more humanistic question: What is "correct"? "Correctness" is often subjective and tied to culture, we may never be able to capture a single "truth" or a sense of correctness that is universally acceptable to all humans.
+
 ```
